@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+    color: #212121;
+}
+
+/* Логотип */
+
+.my-logo-1{
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 0.84;
+    color: #000000;
+}
+.my-logo-2{
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 0.84;
+    color: #2196F3;
+}
+.my-logo-3{
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 0.84;
+    color: #000000;
+}
+
+/* Кнопка */
+
+.hero-button{
+    font-family: inherit;
+}
+
+/* Шапка */
+
+.header-list .iten-studio, .iten-portfoli {
+    color: #2196F3;
+}
+.feedback{
+    font-style: normal;
+    text-decoration: none;
+    color: #757575;
+}
+.feedback:hover{
+    color: #2196F3;
+}
+
+/* Герой */
+
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.73;
+    text-transform: uppercase;
+}
+
+/* О Нас */
+
+.skill-name{
+    font-size: 14px;
+    line-height: 0.86;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.skill-text{
+    font-size: 14px;
+    line-height: 0.58;
+    color: #757575;
+}
+
+/* Чем мы занимаемся */
+.minor-title{
+    font-size: 36px;
+    line-height: 0.86;
+}
+.lessons-list-link{
+    font-size: 14px;
+    line-height: 0.58;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Наша команда */
+
+.team-name{
+    font-size: 16px;
+    line-height: 0.84;
+}
+.team-profession{
+    font-size: 16px;
+    line-height: 0.84;
+    color: #757575;
+}
+/* Футер */
+
+.link-feedback{
+    font-size: 14px;
+    line-height: 0.58;
+    font-style: normal;
+}
+.link-map{
+    font-style: normal;
+}
+.join{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 0.88;
+}
+
+/* Портфолио Меню */
+
+.menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.62;
+}
+
+/* Галерея */
+.examples-text-iten{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0.5;
+}
+.examples-name{
+    font-size: 16px;
+    line-height: 0.53;
+    color: #757575;
+}
+.examles-text{
+    font-size: 18px;
+    line-height: 0.64;
+}
+
+
+
+/* цвета логотипа #2196F3 / #000000 */
+/* цвет кнопок и ховера #2196F3 */
+/* первчиный текст #212121 */
+/* вторичный текст #757575 */
+/* цыет первичного фона #FFFFFF */
+/* цвет вторичного фона #F5F4FA */
+/* фон соц.сетей rgba(255, 255, 255, 0.1) */
+/* первичный цвет текста футура rgba #FFFFFF */
+/* вторичный цвет текста футера rgba(255, 255, 255, 0.6) */
+/* фон текста перед картинками "чем мы занимаемся" rgba(47, 48, 58, 0.8) */
