@@ -1,8 +1,36 @@
+/* Глобальный border-box */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+/* Обращение ко всей странице */
 *{
     text-decoration: none;
     list-style: none;
     font-family: Roboto;
     color: #212121;
+}
+
+/* Все ховеры и фокусы */
+
+.feedback:hover,
+.feedback:focus,
+.link-user-logo:hover,
+.link-user-logo:focus,
+.iten:focus,
+.iten:hover,
+.social-link:hover,
+.social-link:focus,
+.button-link:hover,
+.button-link:focus
+{
+    color: #2196F3;
 }
 
 /* Логотип */
@@ -41,9 +69,6 @@
     font-style: normal;
     text-decoration: none;
     color: #757575;
-}
-.feedback:hover{
-    color: #2196F3;
 }
 
 /* Герой */
