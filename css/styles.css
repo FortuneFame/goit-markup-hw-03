@@ -5,7 +5,10 @@ html {
   
   *,
   *::before,
-  *::after {
+  *::after
+  {
+    margin: 0;
+    padding: 0; 
     box-sizing: inherit;
   }
 
@@ -15,7 +18,17 @@ html {
     list-style: none;
     font-family: Roboto;
     color: #212121;
+
 }
+img{
+    display: block;
+}
+.link {
+    text-decoration: none;
+    display: block;
+}
+
+
 
 /* Все ховеры и фокусы */
 
@@ -32,22 +45,8 @@ html {
 {
     color: #2196F3;
 }
-/* Убирает все падингтоныи марджины в юэль */
 
-.header-list,
-.list-skills,
-.lesson-list,
-.team-social-links,
-.company-users-link,
-.footer-address-links,
-.social-list-link,
-.team-list-link,
-.main-menu-list,
-.examples
-{
-    margin: 0;
-    padding: 0;
-}
+
 /* Логотип */
 
 .my-logo-1{
@@ -80,13 +79,51 @@ html {
 .header-list .iten-studio, .iten-portfoli {
     color: #2196F3;
 }
-.feedback{
+
+.feedback-tel,
+.feedback-mail{
     font-style: normal;
     text-decoration: none;
     color: #757575;
 }
-.header-site-nav{
+header{
     display: flex;   
+    align-items: center;
+    justify-content: space-between;
+}
+.site-nav{
+    display: flex;
+    align-items: center;
+
+}
+.header-list{
+    display: flex;
+    align-items: center
+}
+.conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedback-list{
+    display: flex;
+    align-items: center
+
+}
+.site-nav > a{
+    margin-right: 85px;
+}
+.header-list-link:not(:last-child){
+    margin-right: 50px;
+}
+.feedback-mail{
+    margin-right: 50px;
+}
+.iten{
+    padding-top: 32px;
+    padding-bottom: 33px;
 }
 
 /* Герой */
