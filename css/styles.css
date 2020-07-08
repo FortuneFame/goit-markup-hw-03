@@ -32,7 +32,22 @@ html {
 {
     color: #2196F3;
 }
+/* Убирает все падингтоныи марджины в юэль */
 
+.header-list,
+.list-skills,
+.lesson-list,
+.team-social-links,
+.company-users-link,
+.footer-address-links,
+.social-list-link,
+.team-list-link,
+.main-menu-list,
+.examples
+{
+    margin: 0;
+    padding: 0;
+}
 /* Логотип */
 
 .my-logo-1{
@@ -69,6 +84,9 @@ html {
     font-style: normal;
     text-decoration: none;
     color: #757575;
+}
+.header-site-nav{
+    display: flex;   
 }
 
 /* Герой */
