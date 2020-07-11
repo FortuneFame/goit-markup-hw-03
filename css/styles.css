@@ -30,14 +30,7 @@ img{
     margin-top: 94px;
     margin-bottom: 94px;
 }
-.iten,
-.iten-studio,
-.iten-portfoli
-{
-    display: block;
-    padding-top: 32px; 
-    padding-bottom: 32px;
-}
+
 .feedback-mail,
 .feedback-tel
 {
@@ -98,19 +91,41 @@ img{
 /* Кнопка */
 
 .hero-button{
-    font-family: inherit;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding-top: 18px;
+    padding-right: 32px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    min-width: 200px;
+    min-height: 50px;
+
+    background: #188CE8;
+    color: #FFFFFF;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0.53;
+    letter-spacing: 0.06em;
+
 }
+
 
 /* Шапка */
 
 .logo{
     margin-right: 85px;
+    padding-top: 24px; 
+    padding-bottom: 25px;
 }
 
 .iten-studio,
 .iten,
 .iten-portfoli
-{
+{   
+    display: block;
+    padding-top: 32px; 
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 0.88;
@@ -158,18 +173,30 @@ header{
 
 
 /* Герой */
+.section-hero{
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background-image: url(../images/hero/Hero_img.jpg);
+    background-size: 1600px  600px;
+    background-repeat: no-repeat;
+
+}
+.hero{
+    display: inline block;
+    text-align: center;
+}
 
 .main-title{
-
-    box-sizing: content-box;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 0.73;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
-.section-hero{
-    display: block;
-}
+
 
 
 /* О Нас */
