@@ -30,10 +30,22 @@ img{
     margin-top: 94px;
     margin-bottom: 94px;
 }
-.iten{
-    padding-top: 32px;
-    padding-bottom: 33px;
+.iten,
+.iten-studio,
+.iten-portfoli
+{
+    display: block;
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
+.feedback-mail,
+.feedback-tel
+{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .conteiner{
     width: 1200px;
     padding-left: 15px;
@@ -46,8 +58,10 @@ img{
 
 /* Все ховеры и фокусы */
 
-.feedback:hover,
-.feedback:focus,
+.feedback-tel:hover,
+.feedback-tel:focus,
+.feedback-mail:hover,
+.feedback-mail:focus,
 .link-user-logo:hover,
 .link-user-logo:focus,
 .iten:focus,
@@ -67,21 +81,20 @@ img{
     font-family: Raleway;
     font-size: 26px;
     line-height: 0.84;
-    color: #000000;
+    color: #2196F3;
 }
 .my-logo-2{
     font-family: Raleway;
     font-size: 26px;
     line-height: 0.84;
-    color: #2196F3;
+    color: #000000;
 }
 .my-logo-3{
     font-family: Raleway;
     font-size: 26px;
     line-height: 0.84;
-    color: #000000;
+    color: #ffffff;
 }
-
 /* Кнопка */
 
 .hero-button{
@@ -90,12 +103,32 @@ img{
 
 /* Шапка */
 
-.header-list .iten-studio, .iten-portfoli {
+.logo{
+    margin-right: 85px;
+}
+
+.iten-studio,
+.iten,
+.iten-portfoli
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+}
+
+.header-list,
+.iten-studio,
+.iten-portfoli {
     color: #2196F3;
 }
 
 .feedback-tel,
 .feedback-mail{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+
     font-style: normal;
     text-decoration: none;
     color: #757575;
@@ -104,28 +137,22 @@ header{
     display: flex;   
     align-items: center;
     justify-content: space-between;
+
 }
 .site-nav{
     display: flex;
     align-items: center;
-
 }
 .header-list{
     display: flex;
-    align-items: center
 }
-.feedback-list{
-    display: flex;
-    align-items: center
-
-}
-.site-nav > a{
-    margin-right: 85px;
-}
-.header-list-link:not(:last-child){
+.header-list-link{
     margin-right: 50px;
 }
-.feedback-mail{
+.feedback-list-item{
+    display: flex;
+}
+.feedback:not(:last-child){
     margin-right: 50px;
 }
 
@@ -133,21 +160,15 @@ header{
 /* Герой */
 
 .main-title{
-    box-sizing: content-box;
 
-    justify-content: space-between;
+    box-sizing: content-box;
     font-weight: 900;
     font-size: 44px;
     line-height: 0.73;
     text-transform: uppercase;
 }
 .section-hero{
-    padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
     display: block;
-    align-items: center;
-    text-align: center;
 }
 
 
