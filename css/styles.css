@@ -12,23 +12,46 @@ html {
     box-sizing: inherit;
   }
 
+
 /* Обращение ко всей странице */
+
+
 *{
     text-decoration: none;
     list-style: none;
     font-family: Roboto;
     color: #212121;
 }
+
+a{
+    text-decoration: none; 
+}
+
+address{ 
+    font-style: normal; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 img{
     display: block;
+
 }
+
 .link {
     text-decoration: none;
     display: block;
 }
+
 .section{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .feedback-mail,
@@ -47,6 +70,13 @@ img{
     margin-right: auto;
 }
 
+.minor-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
 /* Все ховеры и фокусы */
@@ -73,19 +103,21 @@ img{
 .my-logo-1{
     font-family: Raleway;
     font-size: 26px;
-    line-height: 0.84;
+    line-height: 1.19;
     color: #2196F3;
 }
+
 .my-logo-2{
     font-family: Raleway;
     font-size: 26px;
-    line-height: 0.84;
+    line-height: 1.19;
     color: #000000;
 }
+
 .my-logo-3{
     font-family: Raleway;
     font-size: 26px;
-    line-height: 0.84;
+    line-height: 1.19;
     color: #ffffff;
 }
 /* Кнопка */
@@ -93,21 +125,18 @@ img{
 .hero-button{
     border: 1px solid transparent;
     border-radius: 4px;
-    padding-top: 18px;
-    padding-right: 32px;
-    padding-bottom: 18px;
-    padding-left: 32px;
-    min-width: 200px;
-    min-height: 50px;
+    padding-top: 9px;
+    padding-right: 31px;
+    padding-bottom: 9px;
+    padding-left: 31px;
 
     background: #188CE8;
     color: #FFFFFF;
 
     font-weight: bold;
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.9;
     letter-spacing: 0.06em;
-
 }
 
 
@@ -128,7 +157,8 @@ img{
     padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-list,
@@ -142,114 +172,262 @@ img{
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
     font-style: normal;
     text-decoration: none;
     color: #757575;
 }
+
 header{
     display: flex;   
     align-items: center;
     justify-content: space-between;
 
 }
+
 .site-nav{
     display: flex;
     align-items: center;
 }
+
 .header-list{
     display: flex;
 }
+
 .header-list-link{
     margin-right: 50px;
 }
+
 .feedback-list-item{
     display: flex;
 }
+
 .feedback:not(:last-child){
     margin-right: 50px;
 }
 
 
 /* Герой */
+
 .section-hero{
-    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
 
-    background-image: url(../images/hero/Hero_img.jpg);
-    background-size: 1600px  600px;
-    background-repeat: no-repeat;
+    background-color: gray;
 
 }
 .hero{
-    display: inline block;
     text-align: center;
 }
 
 .main-title{
+    text-align: center;
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
-    line-height: 0.73;
+    line-height: 1.36;
     text-transform: uppercase;
     color: #FFFFFF;
+    letter-spacing: 0.06em;
 }
-
 
 
 /* О Нас */
 
+.list-skills{
+    display: flex;
+}
+.skill{
+    width: 270px;
+}
+.skill:not(:last-child){
+    margin-right: 30px;
+}
+.icon-block{
+
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+}
 .skill-name{
+
+    margin-bottom: 10px;
+
     font-size: 14px;
-    line-height: 0.86;
+    line-height: 1.19;
     text-transform: uppercase;
     font-weight: bold;
 }
 .skill-text{
+
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
     color: #757575;
 }
 
 /* Чем мы занимаемся */
-.minor-title{
-    font-size: 36px;
-    line-height: 0.86;
+
+.section-lessons{
+    text-align: center;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+.lesson-list{
+    display: flex;
+}
+
+.lesson-list li:not(:last-child){
+    margin-right: 30px;
+
+}
+
+.minor-title{
+    margin-bottom: 50px; 
+
+    font-size: 36px;
+    line-height: 1.17;
+}
+
 .lessons-list-link{
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.14;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 /* Наша команда */
 
-.team-name{
-    font-size: 16px;
-    line-height: 0.84;
+.team{
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
-.team-profession{
+
+.team-list-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team{
+    text-align: center;
+    background: #F5F4FA;
+}
+
+.team img{
+    margin-bottom: 30px;
+}
+
+.team-name{
+    margin-bottom: 10px;
+
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-profession{
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #757575;
 }
+
+
+
+/*  Постоянные клиенты  */
+
+.clients{
+
+}
+
+.company-users-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-iten{
+    width: 170px;
+    height: 90px;
+
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.user-iten:hover,
+.user-iten:focus{
+    border: 1px solid #2196F3;
+}
+
+/* .clients .link-user-logo:hover,
+.clients .link-user-logo:focus{
+    border: 1px solid #2196F3;
+} */
+
+
 /* Футер */
+
+.footer{
+    background: #2F303A;
+}
+
+.wrapper-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-footer{
+    margin-bottom: 20px;
+}
+
+.footer-address-links li:not(:last-child){
+    margin-bottom: 9px;
+}
+
+.link-map{
+    font-style: normal;
+
+    color: #FFFFFF;
+}
 
 .link-feedback{
     font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.71;
     font-style: normal;
+
+    color: rgba(255, 255, 255, 0.6);
 }
-.link-map{
-    font-style: normal;
-}
+
 .join{
     text-transform: uppercase;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
+
+    color: #FFFFFF;
 }
+
+.subcribe{
+    min-width: 570px;
+}
+
 
 /* Портфолио Меню */
 
